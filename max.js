@@ -4,10 +4,13 @@
 function max(num1, num2) {
 //test for the larger number
     if (num1 > num2) {
-            return num1 + "is the largest number"
+            alert(num1 + " is the largest number");
+        } else if (num1 == num2)  {
+            alert('shit\'s even yo!')
         } else {
-            return num2 + "is the largest number"
+            alert(num2 + " is the largest number");        
         }
-}
-
-max(2, 10);
+};
+$(document).ready(function() {
+    $('p').append('<body>' +  max(10, 10) +'</body>');
+});
