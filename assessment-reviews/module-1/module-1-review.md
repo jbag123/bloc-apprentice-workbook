@@ -11,6 +11,7 @@
 ### Questions
 
 1. What is HTML and what is it used for?
+    HTML is a mark up language used to structure web pages. It is distinct from the complementary mark up language of CSS that applies styles or implies presentation on top of the structure of HTML. HTMl code should indicate what the purpose and tone of different areas and contents of a webpage are and in this way can be refered to as being semantic or indicating meaning.
 2. What is the difference between an ID and a class?
 3. What does it mean to write "semantic" HTML?
 
