@@ -15,3 +15,5 @@ They will also keep track of your skill mastery and conceptual understanding in 
 Assessment reviews are additional exercise sets specifically designed to aid in preparing for assessments.
 
 *Have fun!*
+
+*Hi, I have added the different challenges from http://www.ling.gu.se/~lager/kurser/webtechnology/lab4.html as .js files linked to portal.html with the results appended to that file.
