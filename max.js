@@ -12,5 +12,8 @@ function max(num1, num2) {
         }
 };
 $(document).ready(function() {
-    $('p').append('<body>' +  max(10, 10) +'</body>');
+    alert('Define a function max() that takes two numbers as arguments and returns the largest of them. Use the if-then-else construct available in Javascript');
+    var number1 = prompt('Enter the first number for this script');
+    var number2 = prompt('Enter the second number for this script');
+    $('p').append('<body>' +  max(number1,number2) +'</body>');
 });
