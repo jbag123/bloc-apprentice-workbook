@@ -195,12 +195,18 @@ function sum(array) {
        for (var i = 0; i < array.length; i++) {
             number += array[i];
        }
-		console.log(number);
+console.log(number);
 }
 10. Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
-function charVowel() {
-    
-}   
+var vowel = ['a', 'e', 'i', 'o', 'u'];
+function charVowel(array, char) {
+    for (var i = 0; i < array.length; i++) {
+    	if (char == array[i]) {
+    	return true;
+    	} 
+    }
+}  
+charVowel(vowel,'u');
 11. Write the correct line to make `"Woof!"` show up in the console based on this script:
 
   ```javascript
